@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background: #fff;
+}
+a{
+    text-decoration: none;
+}
+.header__link-links{
+    padding: 0 10px;
+    color: #717171;
+    font-weight: 400;
+    font-size: 20px;
+    transition: .5s;
+}
+.header__link-links:hover{
+    color: black;
+}
+.header__link-slecat{
+    padding: 10px 20px;
+    border: 1px solid blue;
+    border-radius: 6px;
+    transition: .5s;
+    color: blue;
+    margin: 0 10px;
+    
+}
+.header__link-slecat:hover{
+  background: blue;
+  color: #fff;
+}
+.header__link-slecat2{
+    padding: 10px 30px;
+    border: 1px solid green;
+    color: green;
+    transition: .5s;
+    border-radius: 6px;
+}
+.header__link-slecat2:hover{
+    background: green;
+    color: #fff; 
+}
+.header__link-slec{
+    border: unset;
+    padding: 20px;
+    color: black;
+}
+.main__nav-card{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    background: skyblue;
+    align-items: center;
+    text-align: center;
+}
+.main__title{
+    align-items: center;
+    margin: 0  30px;
+    color: #fff;
+}
+.main__link{
+    color: #fff;
+    margin: 0 30px;
+}
+.main__h3{
+    padding: 10px 0;
+}
+main{
+    background: aliceblue;
+    width: 100%;
+   
+   
+}
+.main__input{
+    padding: 10px 100px;
+}
+.main__nav-card2{
+    margin: 0 30px;
+}
+.main__nav-card3{
+    margin: 0 30px;
+}
+.main__nav{
+    background: #fff;
+    width: 100%;
+    border: 1px solid #717171;
+}
+.main__link2{
+    background: green;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 30px 30px;
+    border-radius: 6px;
+    border: 1px solid #717171 ;
+    transition: .5s;
+}
+.main__link2:hover{
+    background: greenyellow;
+}
+.main__nav-card4{
+    margin: 30px 0;
+    
+}
+.main__text{
+    
+    background: aliceblue;
+    padding: 20px;
+}
+.main__link3{
+    color: black;
+    transition: .5s;
+}
+.main__link3:hover{
+    color: green;
+}
